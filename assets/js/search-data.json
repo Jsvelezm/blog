@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Fastpages Notebook Blog Post",
-            "content": "import pandas as pd import altair as alt #hide datos_url = &#39;https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_19-covid-Confirmed.csv&amp;filename=time_series_2019-ncov-Confirmed.csv&#39; datos = pd.read_csv(datos_url) col = datos[datos[&#39;Country/Region&#39;] == &#39;Colombia&#39;] col =col.iloc[:,48:].T.reset_index() col.columns = [&#39;Index&#39;,&#39;Value&#39;] . time = [0, 1, 2, 3] position = [0, 100, 200, 300] plt.plot(time, position) plt.xlabel(&#39;Time (hr)&#39;) plt.ylabel(&#39;Position (km)&#39;) .",
+            "title": "Blog De Jaimito",
+            "content": "import pandas as pd #import altair as alt import numpy as np import matplotlib.pyplot as plt #hide datos_url = &#39;https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_19-covid-Confirmed.csv&amp;filename=time_series_2019-ncov-Confirmed.csv&#39; datos = pd.read_csv(datos_url) col = datos[datos[&#39;Country/Region&#39;] == &#39;Colombia&#39;] col =col.iloc[:,48:].T.reset_index() col.columns = [&#39;Index&#39;,&#39;Value&#39;] . time = [0, 1, 2, 3] position = [0, 100, 200, 300] plt.plot(time, position) plt.xlabel(&#39;Time (hr)&#39;) plt.ylabel(&#39;Position (km)&#39;) . Text(0, 0.5, &#39;Position (km)&#39;) .",
             "url": "https://jsvelezm.github.io/blog/jupyter/2020/03/22/jaimito.html",
             "relUrl": "/jupyter/2020/03/22/jaimito.html",
             "date": " • Mar 22, 2020"
